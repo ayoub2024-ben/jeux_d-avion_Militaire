@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    background-position: center;
+    background-size: cover;
+  }
+.fond{
+    text-align: center;
+    text-decoration: overline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+  }
+  
+  button{
+    position: absolute;
+    top: 550px;
+    left: 715px;
+    background-color: whitesmoke;
+    border: 1px solid sandybrown;
+    color: black;
+    text-align: center;
+    font-size: medium;
+    padding: 5px 25px;
+    border-radius: 11px;
+    cursor: pointer;
+  }

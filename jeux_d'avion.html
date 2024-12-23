@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux d'avion Militaire</title>
+    <link rel="icon" href="photo.jpg">
+    <link rel="stylesheet" href="jeux_d'avion.css">
+</head>
+<body>
+    <div class="startgame">
+        <button class="start"><strong> Start </strong></button><br><br>
+        <button class="restart"><strong> Restart </strong></button> 
+        <div class="gameinfo">
+        <span class="score"><strong> Score : 0 </strong></span>
+        <span class="time"><strong> Time : 0 </strong></span>
+      </div> 
+      <div class="game">
+        <img src="12c7f1d4-12f4-4bf5-9a9d-ce002c5aca6e-removebg-preview.png" class="airplane" id="airplane" alt="Avion" />
+      </div>
+    </div>
+    <div id="introModal" class="modal">
+      <div class="modal-content">
+          <h2>Alerte ! L'ennemi est en approche !</h2>
+          <p>Préparez-vous à décoller et à défendre votre territoire ! Vos compétences de pilote seront mises à l'épreuve. Bonne chance, pilote !</p>
+          <button id="startGameBtn">Commencer le jeu</button>
+      </div>
+  </div>
+  <div id="gameOver" class="modal">
+    <div class="modal-content">
+        <h2>Game Over!</h2>
+        <p>Vous avez été touché par un ennemi !</p>
+        <button id="restartBtn">Redémarrer</button>
+    </div>
+</div>
+      <script src="jeux_d'avion.js"></script>
+</body>
+</html>
+
+
